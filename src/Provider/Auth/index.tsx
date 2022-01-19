@@ -50,7 +50,7 @@ export const AuthProvider = ({ children }: CartProps) => {
     // limpando o state
     setAuthToken("");
     // redirecionando para login
-    history.push("/login");
+    history.push("/");
   };
 
   return (
